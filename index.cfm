@@ -60,7 +60,7 @@
     <a href="/">                        
         <img src="images/BVG_web_banner_image_2014_smaller.jpg" alt="Bayview Gallery">
     </a>
-    <div class="columns">
+    <div class="columns is-desktop">
                         <div class="column is-one-quarter">
                             <a href="http://www.facebook.com/pages/Bayview-Gallery/183780655000860">
                                 <img src="images/facebook-icon.gif" width="133" height="37" alt="facebook icon" style="float:left;border:none;">
@@ -130,7 +130,7 @@
     </nav>    
     <div class="section">
         <div class="container">
-            <div class="columns">
+            <div class="columns is-desktop">
                 <div class="column is-two-thirds">
                     <a href="artists.html">
                         <cfoutput query="IndexPic">

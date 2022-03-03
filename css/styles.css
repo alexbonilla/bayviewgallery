@@ -1,0 +1,64 @@
+@import "bulma.min.css";
+
+* {
+    margin: 0;
+}
+  
+html,
+body {
+    height: 100%;
+}
+  
+body, .navbar {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #333366;
+    color: #FFFFFF;
+}
+
+header {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;    
+    padding: 10px;
+  }
+  
+nav a:visited,
+nav a:link {
+    color: #CCCCCC;
+    text-decoration: none;
+}
+  
+nav > ul {
+    display: inline;
+    padding: 0;
+}
+  
+nav > ul > li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 5px 0 5px;
+}
+
+main {
+    display: block;    
+    padding-top: 3em;
+    padding-bottom: 3em;
+    min-height: 85%;
+}
+
+footer {
+    padding: 15px;
+}
+
+a{
+    color: #CCCCCC;
+}
+
+.newsletter-form{
+    border:2px solid #000000;
+    /* float:left; */
+    margin-left:24px;
+    margin-right:24px;
+}

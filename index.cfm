@@ -57,10 +57,12 @@
         FROM tblIndexPic
         
     </cfquery>
+    <a href="/">                        
+        <img src="images/BVG_web_banner_image_2014_smaller.jpg" alt="Bayview Gallery" width="112" height="28">
+    </a>
     <nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
-            <a class="navbar-item" href="/">                        
-                <img src="images/BVG_web_banner_image_2014_smaller.jpg" alt="Bayview Gallery" width="112" height="28">
+            <a class="navbar-item" href="/">                
             </a>
             <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarMain">
                 <span aria-hidden="true"></span>

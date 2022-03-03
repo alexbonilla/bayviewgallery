@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Bayview Gallery offers paintings by New England's finest and most renowned artists. The artists we represent span the spectrum from contemporary American impressionists to contemporary American realists. We also display sculpture and offer original and limited-edition prints by important New England artists.">
 	<meta name="title" content="Bayview Gallery">
+    <meta name="author" content="Alex Bonilla">
 	<meta name="keywords" content="Art of Maine, Artists, Frameshops, Art Gallery, Maine, elegant art, paintings, prints, sculptures, New England Artists, restoration, art collections, hanging prints, John Atwater, Stapleton Kearns, David Little, Scott Moore, Donald Allen Mosher, Stefan Pastuhov, Don Stone">
 	<meta name="rating" content="Safe for kids">
     

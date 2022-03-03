@@ -58,8 +58,38 @@
         
     </cfquery>
     <a href="/">                        
-        <img src="images/BVG_web_banner_image_2014_smaller.jpg" alt="Bayview Gallery" width="112" height="28">
+        <img src="images/BVG_web_banner_image_2014_smaller.jpg" alt="Bayview Gallery">
     </a>
+    <div class="columns">
+                        <div class="column is-one-quarter">
+                            <a href="http://www.facebook.com/pages/Bayview-Gallery/183780655000860">
+                                <img src="images/facebook-icon.gif" width="133" height="37" alt="facebook icon" style="float:left;border:none;">
+                            </a>                            
+                        </div>
+                        <div class="column is-one-quarter">                            
+                            <a href="https://twitter.com/#!/Bayview_Gallery">
+                                <img src="images/twitter-icon.gif" width="122" height="39" alt="twitter icon" style="float:left; clear:none;border:none;">
+                            </a>
+                        </div>
+                        <div class="column is-half">
+                            <table border="0" cellspacing="0" cellpadding="3" bgcolor="#ffffcc" class="newsletter-form">
+                                <tr>
+                                    <td align="center" style="font-weight: bold; font-family:Verdana,Geneva,Arial,Helvetica,sans-serif; font-size:12px; color:#000000;">Sign up for our Email Newsletter</td>
+                                </tr>
+                                <tr>
+                                    <td align="center" style="border-top:2px solid #000000">
+                                        <form name="ccoptin" action="https://visitor.constantcontact.com/d.jsp" target="_blank" method="post" style="margin-bottom:2;">
+                                            <input type="hidden" name="m" value="1101873900008">
+                                            <input type="hidden" name="p" value="oi">
+                                            <font style="font-weight: normal; font-family:Verdana,Geneva,Arial,Helvetica,sans-serif; font-size:12px; color:#000000;">Your Email:</font> 
+                                            <input type="text" name="ea" size="20" value="" style="font-size:10pt; border:1px solid #999999;">
+                                            <input type="submit" name="go" value="Go" class="submit" style="font-family:Verdana,Geneva,Arial,Helvetica,sans-serif; font-size:10pt;">
+                                        </form>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>                        
+                    </div> 
     <nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
             <a class="navbar-item" href="/">                
@@ -93,36 +123,7 @@
             </div>
             <div class="navbar-end">
                 <div class="navbar-item">
-                    <div class="columns">
-                        <div class="column is-one-quarter">
-                            <a href="http://www.facebook.com/pages/Bayview-Gallery/183780655000860">
-                                <img src="images/facebook-icon.gif" width="133" height="37" alt="facebook icon" style="float:left;border:none;">
-                            </a>                            
-                        </div>
-                        <div class="column is-one-quarter">                            
-                            <a href="https://twitter.com/#!/Bayview_Gallery">
-                                <img src="images/twitter-icon.gif" width="122" height="39" alt="twitter icon" style="float:left; clear:none;border:none;">
-                            </a>
-                        </div>
-                        <div class="column is-half">
-                            <table border="0" cellspacing="0" cellpadding="3" bgcolor="#ffffcc" class="newsletter-form">
-                                <tr>
-                                    <td align="center" style="font-weight: bold; font-family:Verdana,Geneva,Arial,Helvetica,sans-serif; font-size:12px; color:#000000;">Sign up for our Email Newsletter</td>
-                                </tr>
-                                <tr>
-                                    <td align="center" style="border-top:2px solid #000000">
-                                        <form name="ccoptin" action="https://visitor.constantcontact.com/d.jsp" target="_blank" method="post" style="margin-bottom:2;">
-                                            <input type="hidden" name="m" value="1101873900008">
-                                            <input type="hidden" name="p" value="oi">
-                                            <font style="font-weight: normal; font-family:Verdana,Geneva,Arial,Helvetica,sans-serif; font-size:12px; color:#000000;">Your Email:</font> 
-                                            <input type="text" name="ea" size="20" value="" style="font-size:10pt; border:1px solid #999999;">
-                                            <input type="submit" name="go" value="Go" class="submit" style="font-family:Verdana,Geneva,Arial,Helvetica,sans-serif; font-size:10pt;">
-                                        </form>
-                                    </td>
-                                </tr>
-                            </table>
-                        </div>                        
-                    </div> 
+                    
                 </div>
             </div>                                
         </div>

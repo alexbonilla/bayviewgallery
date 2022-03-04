@@ -184,7 +184,7 @@
 	        207-729-5500 or  800-244-3007 
         </FONT>
     </div>
-    <nav class="navbar is-transparent" role="navigation" aria-label="footer navigation">                         
+    <nav class="navbar is-transparent footer-menu" role="navigation" aria-label="footer navigation">                         
         <div id="navbarFooter" class="navbar-menu">
             <div class="navbar-start">
                 <a class="navbar-item" href="/">

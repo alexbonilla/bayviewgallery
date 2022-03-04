@@ -27,6 +27,12 @@ header {
 @media screen and (min-width: 1024px) {
     .navbar {
         background-color: unset !important;
+    }    
+}
+
+@media screen and (max-width: 1023px) {
+    .footer-menu {
+        display: none;
     }
 }
   

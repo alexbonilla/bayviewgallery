@@ -57,9 +57,11 @@
         FROM tblIndexPic
         
     </cfquery>
-    <a href="/">                        
-        <img src="images/BVG_web_banner_image_2014_smaller.jpg" alt="Bayview Gallery">
-    </a>
+    <div class="container">
+        <a href="/">                        
+            <img src="images/BVG_web_banner_image_2014_smaller.jpg" alt="Bayview Gallery">
+        </a>
+    </div>
     <div class="columns is-desktop">
         <div class="column is-one-quarter">
             <div class="container">
@@ -67,13 +69,6 @@
                     <img src="images/facebook-icon.gif" width="133" height="37" alt="facebook icon">
                 </a>                            
             </div>
-        </div>
-        <div class="column is-one-quarter">                            
-            <div class="container">
-                <a href="https://twitter.com/#!/Bayview_Gallery">
-                    <img src="images/twitter-icon.gif" width="122" height="39" alt="twitter icon">
-                </a>                          
-            </div>                            
         </div>
         <div class="column is-half">
             <table border="0" cellspacing="0" cellpadding="3" bgcolor="#ffffcc" class="newsletter-form">
@@ -92,7 +87,14 @@
                     </td>
                 </tr>
             </table>
-        </div>                        
+        </div> 
+        <div class="column is-one-quarter">                            
+            <div class="container">
+                <a href="https://twitter.com/#!/Bayview_Gallery">
+                    <img src="images/twitter-icon.gif" width="122" height="39" alt="twitter icon">
+                </a>                          
+            </div>                            
+        </div>                               
     </div> 
     <nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">

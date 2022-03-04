@@ -143,7 +143,33 @@
                     Welcome to BayviewGallery.com!<br><br>
                     Enjoy your visit to our website and come see all of our beautiful artwork in person at 58 Maine Street in Brunswick, Maine!
                 </div>
-            </div>  
+            </div>
+            <div class="columns is-desktop">                
+                <div class="column is-two-thirds">
+                    <a href="artists.html">
+                        <cfoutput query="IndexPic">
+                            <cfif #DisplayOrder# IS '2'><img src="images/indexPic/#Image#" border=0 alt="#ArtistName#" HSPACE=10>
+                            </cfif>
+                        </cfoutput>
+                    </a>
+                </div>
+                <div class="column is-one-third">
+                    Bayview Gallery offers paintings by New England's finest and most renowned <A HREF="artists.html">artists</A>. The artists we represent span the spectrum from contemporary American Impressionists to Realists.
+                </div>
+            </div>
+            <div class="columns is-desktop">   
+                <div class="column is-one-third">
+                    Thanks for visiting, come and see us when you're in Maine.
+                </div>             
+                <div class="column is-two-thirds">
+                    <a href="artists.html">
+                        <cfoutput query="IndexPic">
+                            <cfif #DisplayOrder# IS '3'><img src="images/indexPic/#Image#" border=0 alt="#ArtistName#" HSPACE=10>
+                            </cfif>
+                        </cfoutput>
+                    </a>
+                </div>                
+            </div>
         </div>                                  
     </div>
     <nav class="navbar is-transparent" role="navigation" aria-label="footer navigation">                         

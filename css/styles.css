@@ -24,12 +24,10 @@ header {
     padding: 10px;
   }
 
-.navbar {
-    background-color: none !important;
-}
-
-.navbar-burger {
-    color: #FFF !important;
+@media screen and (min-width: 1024px) {
+    .navbar {
+        background-color: unset !important;
+    }
 }
   
 nav a:visited,

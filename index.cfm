@@ -62,14 +62,18 @@
     </a>
     <div class="columns is-desktop">
                         <div class="column is-one-quarter">
-                            <a href="http://www.facebook.com/pages/Bayview-Gallery/183780655000860">
-                                <img src="images/facebook-icon.gif" width="133" height="37" alt="facebook icon" style="float:left;border:none;">
-                            </a>                            
+                            <div class="container">
+                                <a href="http://www.facebook.com/pages/Bayview-Gallery/183780655000860">
+                                    <img src="images/facebook-icon.gif" width="133" height="37" alt="facebook icon">
+                                </a>                            
+                            </div>
                         </div>
                         <div class="column is-one-quarter">                            
-                            <a href="https://twitter.com/#!/Bayview_Gallery">
-                                <img src="images/twitter-icon.gif" width="122" height="39" alt="twitter icon" style="float:left; clear:none;border:none;">
-                            </a>
+                            <div class="container">
+                                <a href="https://twitter.com/#!/Bayview_Gallery">
+                                    <img src="images/twitter-icon.gif" width="122" height="39" alt="twitter icon">
+                                </a>                          
+                            </div>                            
                         </div>
                         <div class="column is-half">
                             <table border="0" cellspacing="0" cellpadding="3" bgcolor="#ffffcc" class="newsletter-form">

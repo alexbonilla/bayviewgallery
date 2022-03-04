@@ -23,6 +23,14 @@ header {
     width: 100%;    
     padding: 10px;
   }
+
+.navbar {
+    background-color: none !important;
+}
+
+.navbar-burger {
+    color: #FFF !important;
+}
   
 nav a:visited,
 nav a:link {

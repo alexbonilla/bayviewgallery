@@ -59,11 +59,12 @@
     </cfquery>
     <div class="section">
         <div class="container">
-        <a href="/">                        
-            <img src="images/BVG_web_banner_image_2014_smaller.jpg" alt="Bayview Gallery">
-        </a>
-        </div>
-        <div class="columns is-desktop">
+            <a href="/">                        
+                <img src="images/BVG_web_banner_image_2014_smaller.jpg" alt="Bayview Gallery">
+            </a>
+        </div>        
+    </div>
+    <div class="columns is-desktop">
             <div class="column is-one-quarter">
                 <div class="container">
                     <a href="http://www.facebook.com/pages/Bayview-Gallery/183780655000860">
@@ -96,11 +97,9 @@
                     </a>                          
                 </div>                            
             </div>                               
-        </div> 
-        <nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
-            <div class="navbar-brand">
-                <a class="navbar-item" href="/">                
-                </a>
+    </div> 
+    <nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">                
                 <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarMain">
                     <span aria-hidden="true"></span>
                     <span aria-hidden="true"></span>
@@ -134,9 +133,7 @@
                     </div>
                 </div>                                
             </div>
-        </nav> 
-    </div>
-       
+    </nav> 
     <div class="section">
         <div class="container">
             <div class="columns is-desktop">

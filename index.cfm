@@ -65,14 +65,14 @@
         </div>        
     </div>
     <div class="columns is-desktop">
-            <div class="column is-one-quarter">
+            <div class="column is-one-quarter has-text-centered">
                 <div class="container">
                     <a href="http://www.facebook.com/pages/Bayview-Gallery/183780655000860">
                         <img src="images/facebook-icon.gif" width="133" height="37" alt="facebook icon">
                     </a>                            
                 </div>
             </div>
-            <div class="column is-half">
+            <div class="column is-half has-text-centered">
                 <table border="0" cellspacing="0" cellpadding="3" bgcolor="#ffffcc" class="newsletter-form">
                     <tr>
                         <td align="center" style="font-weight: bold; font-family:Verdana,Geneva,Arial,Helvetica,sans-serif; font-size:12px; color:#000000;">Sign up for our Email Newsletter</td>
@@ -90,7 +90,7 @@
                     </tr>
                 </table>
             </div> 
-            <div class="column is-one-quarter">                            
+            <div class="column is-one-quarter has-text-centered">                            
                 <div class="container">
                     <a href="https://twitter.com/#!/Bayview_Gallery">
                         <img src="images/twitter-icon.gif" width="122" height="39" alt="twitter icon">
@@ -179,7 +179,7 @@
         </div>                                  
     </div>
     <div class="section">
-        <div class="container">
+        <div class="container has-text-centered">
             <FONT FACE="Arial, Helvetica" SIZE="2">
             <B>Bayview Gallery</B><BR>
             <A HREF="mailto:art@bayviewgallery.com">art@bayviewgallery.com</A><BR><BR>            

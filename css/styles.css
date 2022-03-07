@@ -72,8 +72,7 @@ a{
 }
 
 .newsletter-form{
-    border:2px solid #000000;
-    /* float:left; */
-    margin-left:24px;
-    margin-right:24px;
+    border:2px solid #000000;    
+    margin-left:auto;
+    margin-right:auto;
 }

@@ -8,7 +8,9 @@ html,
 body {
     height: 100%;
     background-color: #333366;
-    width: 768px;
+    width: 590px;
+    margin-right: auto;
+    margin-left: auto;
 }
   
 body, .navbar {

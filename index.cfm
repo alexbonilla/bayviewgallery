@@ -57,83 +57,86 @@
         FROM tblIndexPic
         
     </cfquery>
-    <div class="container">
+    <div class="section">
+        <div class="container">
         <a href="/">                        
             <img src="images/BVG_web_banner_image_2014_smaller.jpg" alt="Bayview Gallery">
         </a>
-    </div>
-    <div class="columns is-desktop">
-        <div class="column is-one-quarter">
-            <div class="container">
-                <a href="http://www.facebook.com/pages/Bayview-Gallery/183780655000860">
-                    <img src="images/facebook-icon.gif" width="133" height="37" alt="facebook icon">
-                </a>                            
-            </div>
         </div>
-        <div class="column is-half">
-            <table border="0" cellspacing="0" cellpadding="3" bgcolor="#ffffcc" class="newsletter-form">
-                <tr>
-                    <td align="center" style="font-weight: bold; font-family:Verdana,Geneva,Arial,Helvetica,sans-serif; font-size:12px; color:#000000;">Sign up for our Email Newsletter</td>
-                </tr>
-                <tr>
-                    <td align="center" style="border-top:2px solid #000000">
-                        <form name="ccoptin" action="https://visitor.constantcontact.com/d.jsp" target="_blank" method="post" style="margin-bottom:2;">
-                            <input type="hidden" name="m" value="1101873900008">
-                            <input type="hidden" name="p" value="oi">
-                            <font style="font-weight: normal; font-family:Verdana,Geneva,Arial,Helvetica,sans-serif; font-size:12px; color:#000000;">Your Email:</font> 
-                            <input type="text" name="ea" size="20" value="" style="font-size:10pt; border:1px solid #999999;">
-                            <input type="submit" name="go" value="Go" class="submit" style="font-family:Verdana,Geneva,Arial,Helvetica,sans-serif; font-size:10pt;">
-                        </form>
-                    </td>
-                </tr>
-            </table>
-        </div> 
-        <div class="column is-one-quarter">                            
-            <div class="container">
-                <a href="https://twitter.com/#!/Bayview_Gallery">
-                    <img src="images/twitter-icon.gif" width="122" height="39" alt="twitter icon">
-                </a>                          
-            </div>                            
-        </div>                               
-    </div> 
-    <nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
-        <div class="navbar-brand">
-            <a class="navbar-item" href="/">                
-            </a>
-            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarMain">
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-                <span aria-hidden="true"></span>
-            </a>
-        </div>              
-        <div id="navbarMain" class="navbar-menu">
-            <div class="navbar-start">
-                <a class="navbar-item" href="/">
-                    Home
-                </a>              
-                <a class="navbar-item" href="artists.html">
-                    View<br>Inventory
-                </a>
-                <a class="navbar-item" href="galleries.html">
-                    Find<br>the Gallery
-                </a>
-                <a class="navbar-item" href="aboutus.html">
-                    Learn<br>About Us
-                </a>
-                <a class="navbar-item" href="currentExhibition.cfm">
-                    Browse<br>Current Exhibition
-                </a>
-                <a class="navbar-item" href="mailto:art@bayviewgallery.com">
-                    Send<br>Us Email
-                </a>                                  
-            </div>
-            <div class="navbar-end">
-                <div class="navbar-item">
-                    
+        <div class="columns is-desktop">
+            <div class="column is-one-quarter">
+                <div class="container">
+                    <a href="http://www.facebook.com/pages/Bayview-Gallery/183780655000860">
+                        <img src="images/facebook-icon.gif" width="133" height="37" alt="facebook icon">
+                    </a>                            
                 </div>
-            </div>                                
-        </div>
-    </nav>    
+            </div>
+            <div class="column is-half">
+                <table border="0" cellspacing="0" cellpadding="3" bgcolor="#ffffcc" class="newsletter-form">
+                    <tr>
+                        <td align="center" style="font-weight: bold; font-family:Verdana,Geneva,Arial,Helvetica,sans-serif; font-size:12px; color:#000000;">Sign up for our Email Newsletter</td>
+                    </tr>
+                    <tr>
+                        <td align="center" style="border-top:2px solid #000000">
+                            <form name="ccoptin" action="https://visitor.constantcontact.com/d.jsp" target="_blank" method="post" style="margin-bottom:2;">
+                                <input type="hidden" name="m" value="1101873900008">
+                                <input type="hidden" name="p" value="oi">
+                                <font style="font-weight: normal; font-family:Verdana,Geneva,Arial,Helvetica,sans-serif; font-size:12px; color:#000000;">Your Email:</font> 
+                                <input type="text" name="ea" size="20" value="" style="font-size:10pt; border:1px solid #999999;">
+                                <input type="submit" name="go" value="Go" class="submit" style="font-family:Verdana,Geneva,Arial,Helvetica,sans-serif; font-size:10pt;">
+                            </form>
+                        </td>
+                    </tr>
+                </table>
+            </div> 
+            <div class="column is-one-quarter">                            
+                <div class="container">
+                    <a href="https://twitter.com/#!/Bayview_Gallery">
+                        <img src="images/twitter-icon.gif" width="122" height="39" alt="twitter icon">
+                    </a>                          
+                </div>                            
+            </div>                               
+        </div> 
+        <nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="/">                
+                </a>
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarMain">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>              
+            <div id="navbarMain" class="navbar-menu">
+                <div class="navbar-start">
+                    <a class="navbar-item" href="/">
+                        Home
+                    </a>              
+                    <a class="navbar-item" href="artists.html">
+                        View<br>Inventory
+                    </a>
+                    <a class="navbar-item" href="galleries.html">
+                        Find<br>the Gallery
+                    </a>
+                    <a class="navbar-item" href="aboutus.html">
+                        Learn<br>About Us
+                    </a>
+                    <a class="navbar-item" href="currentExhibition.cfm">
+                        Browse<br>Current Exhibition
+                    </a>
+                    <a class="navbar-item" href="mailto:art@bayviewgallery.com">
+                        Send<br>Us Email
+                    </a>                                  
+                </div>
+                <div class="navbar-end">
+                    <div class="navbar-item">
+                        
+                    </div>
+                </div>                                
+            </div>
+        </nav> 
+    </div>
+       
     <div class="section">
         <div class="container">
             <div class="columns is-desktop">
@@ -179,12 +182,14 @@
         </div>                                  
     </div>
     <div class="section">
-        <FONT FACE="Arial, Helvetica" SIZE="2">
+        <div class="container">
+            <FONT FACE="Arial, Helvetica" SIZE="2">
             <B>Bayview Gallery</B><BR>
             <A HREF="mailto:art@bayviewgallery.com">art@bayviewgallery.com</A><BR><BR>            
             58 Maine Street, Brunswick, Maine 04011<BR>
 	        207-729-5500 or  800-244-3007 
         </FONT>
+        </div>
     </div>
     <nav class="navbar is-transparent footer-menu" role="navigation" aria-label="footer navigation">                         
         <div id="navbarFooter" class="navbar-menu">

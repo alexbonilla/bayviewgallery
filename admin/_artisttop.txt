@@ -100,7 +100,7 @@
 <br>
 
 <div class="section">
-<h1 class="has-text-right">The Artists</h1>
+<h1 class="has-text-left">The Artists</h1>
 Bayview Gallery represents the best land and sea painters of Maine, long known the world over for fine paintings.  Painters have come to Maine for centuries to capture its beauty and to paint the light so special in this land.  While all our artists do not live in Maine, those "from away" travel here throughout the year to paint this idyllic landscape.<br>
 Click on the name or image for currently available work and information about each artist.
 </div>

@@ -5,13 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Bayview Gallery offers paintings by New England's finest and most renowned artists. The artists we represent span the spectrum from contemporary American impressionists to contemporary American realists. We also display sculpture and offer original and limited-edition prints by important New England artists.">
-	<meta name="title" content="Bayview Artists">
+	<meta name="title" content="Bayview Artist">
     <meta name="author" content="Alex Bonilla">
 	<meta name="keywords" content="Art of Maine, Artists, Frameshops, Art Gallery, Maine, elegant art, paintings, prints, sculptures, New England Artists, restoration, art collections, hanging prints, John Atwater, Stapleton Kearns, David Little, Scott Moore, Donald Allen Mosher, Stefan Pastuhov, Don Stone">
 	<meta name="rating" content="Safe for kids">
     
     <link rel="stylesheet" href="css/styles.css">
-    <title>Bayview Artists</title>
+    <title>|Artist|</title>
 
     <!-- Mobile Sniffer -->		
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
@@ -97,15 +97,19 @@
     </nav>
 
 	<!-- navbar ends here -->
+
+<br>
 <br>
 
 <div class="section">
-<h1 class="has-text-left">The Artists</h1>
-Bayview Gallery represents the best land and sea painters of Maine, long known the world over for fine paintings.  Painters have come to Maine for centuries to capture its beauty and to paint the light so special in this land.  While all our artists do not live in Maine, those "from away" travel here throughout the year to paint this idyllic landscape.<br>
-Click on the name or image for currently available work and information about each artist.
+    <div class="container">
+        <h1 class="has-text-centered">The Artists: |ARTIST|</h1>
+        (Click on a painting for a larger view.)
+    </div>
 </div>
-
 <div class="section">
+
+
 
 
 

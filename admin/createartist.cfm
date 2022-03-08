@@ -83,18 +83,11 @@
 	<cfquery name="getArt" datasource="bayview">
 		SELECT * FROM tblArtwork WHERE ArtistID = #getArtists.ArtistID# ORDER BY Name
 	</cfquery>
-	<cfset Middle = "<div class='container'>">
+	<cfset Middle = "<div class='columns is-multiline'>">
 	<cfset ThisArtistName = getArtists.Name>
 	<cfset ThisArtistID = getArtists.ArtistID>
-	<cfloop query="getArt">
-		<cfif getArt.CurrentRow MOD 3 eq 3>
-			<cfset Middle = Middle & "<div class='columns is-centered'>">
-		</cfif>
-		
-		<cfset Middle = Middle & "<div class='column is-one-third has-text-centered'><a href='Image_#ThisArtistID#_#getArt.ArtworkID#.html'><img src='images/thumb_#ThisArtistID#_#getArt.ArtworkID#.jpg' hspace=20 border=0 alt='#getArt.Name#' align='top'></a><br><FONT FACE='Arial,Helvetica' size=2><a href='Image_#ThisArtistID#_#getArt.ArtworkID#.html'>#getArt.Name#</a><br>#getArt.Size#<br>#getArt.Price#</font></div>">
-		<cfif getArt.CurrentRow MOD 3 eq 0>
-			<cfset Middle = Middle & "</div>">
-		</cfif>
+	<cfloop query="getArt">				
+	    <cfset Middle = Middle & "<div class='column is-one-third has-text-centered'><a href='Image_#ThisArtistID#_#getArt.ArtworkID#.html'><img src='images/thumb_#ThisArtistID#_#getArt.ArtworkID#.jpg' hspace=20 border=0 alt='#getArt.Name#' align='top'></a><br><FONT FACE='Arial,Helvetica' size=2><a href='Image_#ThisArtistID#_#getArt.ArtworkID#.html'>#getArt.Name#</a><br>#getArt.Size#<br>#getArt.Price#</font></div>">		
 	</cfloop>
 	<cfset Middle = Middle & "</div>">
 	<cfoutput>Creating artist page for #getArtists.Name#</cfoutput><br>

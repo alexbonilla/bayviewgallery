@@ -114,41 +114,7 @@
                 <img src="images/BVG_web_banner_image_2014_smaller.jpg" alt="Bayview Gallery">
             </a>
         </div>        
-    </div>
-    <div class="columns is-desktop">
-            <div class="column is-one-quarter has-text-centered">
-                <div class="container">
-                    <a href="http://www.facebook.com/pages/Bayview-Gallery/183780655000860">
-                        <img src="images/facebook-icon.gif" width="133" height="37" alt="facebook icon">
-                    </a>                            
-                </div>
-            </div>
-            <div class="column is-half has-text-centered">
-                <table border="0" cellspacing="0" cellpadding="3" bgcolor="#ffffcc" class="newsletter-form">
-                    <tr>
-                        <td align="center" style="font-weight: bold; font-family:Verdana,Geneva,Arial,Helvetica,sans-serif; font-size:12px; color:#000000;">Sign up for our Email Newsletter</td>
-                    </tr>
-                    <tr>
-                        <td align="center" style="border-top:2px solid #000000">
-                            <form name="ccoptin" action="https://visitor.constantcontact.com/d.jsp" target="_blank" method="post" style="margin-bottom:2;">
-                                <input type="hidden" name="m" value="1101873900008">
-                                <input type="hidden" name="p" value="oi">
-                                <font style="font-weight: normal; font-family:Verdana,Geneva,Arial,Helvetica,sans-serif; font-size:12px; color:#000000;">Your Email:</font> 
-                                <input type="text" name="ea" size="20" value="" style="font-size:10pt; border:1px solid #999999;">
-                                <input type="submit" name="go" value="Go" class="submit" style="font-family:Verdana,Geneva,Arial,Helvetica,sans-serif; font-size:10pt;">
-                            </form>
-                        </td>
-                    </tr>
-                </table>
-            </div> 
-            <div class="column is-one-quarter has-text-centered">                            
-                <div class="container">
-                    <a href="https://twitter.com/#!/Bayview_Gallery">
-                        <img src="images/twitter-icon.gif" width="122" height="39" alt="twitter icon">
-                    </a>                          
-                </div>                            
-            </div>                               
-    </div> 
+    </div>     
     <nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
             <div class="navbar-brand">                
                 <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarMain">
@@ -185,14 +151,14 @@
                 </div>                                
             </div>
     </nav> 
-    <div class="columns is-centered">
-        <div class="column is-one-third">
+    <div class="columns is-centered mt-5">
+        <div class="column is-one-third has-text-centered">
             <a href="Exhibition.cfm?estat=p">Past Exhibitions</a>
         </div>
-        <div class="column is-one-third">
+        <div class="column is-one-third has-text-centered">
             <a href="Exhibition.cfm">Current Exhibitions</a>
         </div>
-        <div class="column is-one-third">
+        <div class="column is-one-third has-text-centered">
             <a href="Exhibition.cfm?estat=f">Upcoming Exhibitions</a>
         </div>
     </div>

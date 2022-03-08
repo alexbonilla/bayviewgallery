@@ -1,0 +1,67 @@
+    </div>
+</div>
+<br>
+<br>
+<div class="section">
+        <div class="container has-text-centered">
+            <FONT FACE="Arial, Helvetica" SIZE="2">
+            <B>Bayview Gallery</B><BR>
+            <A HREF="mailto:art@bayviewgallery.com">art@bayviewgallery.com</A><BR><BR>            
+            58 Maine Street, Brunswick, Maine 04011<BR>
+	        207-729-5500 or  800-244-3007 
+        </FONT>
+        </div>
+    </div>
+    <nav class="navbar is-transparent footer-menu" role="navigation" aria-label="footer navigation">                         
+        <div id="navbarFooter" class="navbar-menu">
+            <div class="navbar-start">
+                <a class="navbar-item" href="/">
+                    Home
+                </a>              
+                <a class="navbar-item" href="artists.html">
+                    View<br>Inventory
+                </a>
+                <a class="navbar-item" href="galleries.html">
+                    Find<br>the Gallery
+                </a>
+                <a class="navbar-item" href="aboutus.html">
+                    Learn<br>About Us
+                </a>
+                <a class="navbar-item" href="currentExhibition.cfm">
+                    Browse<br>Current Exhibition
+                </a>
+                <a class="navbar-item" href="mailto:art@bayviewgallery.com">
+                    Send<br>Us Email
+                </a>                                  
+            </div>                                               
+        </div>
+    </nav>     
+</body>
+<script type="text/javascript">
+    document.addEventListener('DOMContentLoaded', () => {
+
+        // Get all "navbar-burger" elements
+        const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+        // Check if there are any navbar burgers
+        if ($navbarBurgers.length > 0) {
+
+        // Add a click event on each of them
+        $navbarBurgers.forEach( el => {
+            el.addEventListener('click', () => {
+
+            // Get the target from the "data-target" attribute
+            const target = el.dataset.target;
+            const $target = document.getElementById(target);
+
+            // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+            el.classList.toggle('is-active');
+            $target.classList.toggle('is-active');
+
+            });
+        });
+        }
+
+    });
+</script>
+</html>

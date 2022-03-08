@@ -72,10 +72,6 @@
 
 <!--- create each artists pages --->
 
-
-
-
-
 <cfloop query="getArtists">
 	<cffile action="READ" file="#ExpandPath('_specificTop.txt')#" variable="Top">
 	<cffile action="READ" file="#ExpandPath('_specificBottom.txt')#" variable="Bottom">
@@ -94,8 +90,6 @@
 	
 	<cffile action="WRITE" file="#ExpandPath('../Artist_#getArtists.ArtistID#.html')#" output="#Top# #Middle# #Bottom#">
 </cfloop>
-
-
 
 <cfquery name="getArtwork" datasource="bayview">
 	SELECT tblArtists.*, tblArtists.Name as ArtistName, tblArtwork.Name as ArtName, tblArtwork.* FROM tblArtwork  LEFT JOIN tblArtists ON (tblArtwork.ArtistID = tblArtists.ArtistID)

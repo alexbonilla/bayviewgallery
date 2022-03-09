@@ -11,18 +11,7 @@
 	<meta name="rating" content="Safe for kids">
     
     <link rel="stylesheet" href="css/styles.css">
-    <title>Bayview Artists</title>
-
-    <!-- Mobile Sniffer -->		
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-    <script type="text/javascript" src="detectmobilebrowser.js"></script>
-    <script type="text/javascript">
-        if (jQuery.browser.mobile)
-    {
-        window.location.href = 'http://www.bayviewgallery.com/index_mobi.html';
-    }
-    </script> 
-    <!-- !Mobile -->	
+    <title>Bayview Artists</title>	
         
     <!--    GA		-->
     <script type="text/javascript">

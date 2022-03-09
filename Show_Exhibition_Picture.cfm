@@ -47,46 +47,47 @@
                 <img src="images/BVG_web_banner_image_2014_smaller.jpg" alt="Bayview Gallery">
             </a>
         </div>            
-        <nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
-                <div class="navbar-brand">                
-                    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarMain">
-                        <span aria-hidden="true"></span>
-                        <span aria-hidden="true"></span>
-                        <span aria-hidden="true"></span>
-                    </a>
-                </div>              
-                <div id="navbarMain" class="navbar-menu">
-                    <div class="navbar-start">
-                        <a class="navbar-item" href="/">
-                            Home
-                        </a>              
-                        <a class="navbar-item" href="artists.html">
-                            View<br>Inventory
-                        </a>
-                        <a class="navbar-item" href="galleries.html">
-                            Find<br>the Gallery
-                        </a>
-                        <a class="navbar-item" href="aboutus.html">
-                            Learn<br>About Us
-                        </a>
-                        <a class="navbar-item" href="currentExhibition.cfm">
-                            Browse<br>Current Exhibition
-                        </a>
-                        <a class="navbar-item" href="mailto:art@bayviewgallery.com">
-                            Send<br>Us Email
-                        </a>                                  
-                    </div>
-                    <div class="navbar-end">
-                        <div class="navbar-item">
-                            
-                        </div>
-                    </div>                                
-                </div>
-        </nav>         
-        <div class="container has-text- centered">
-            <a href="Exhibition.cfm"><< Back</a>
-        </div>
     </div>    
+    <nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">                
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarMain">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>              
+        <div id="navbarMain" class="navbar-menu">
+            <div class="navbar-start">
+                <a class="navbar-item" href="/">
+                    Home
+                </a>              
+                <a class="navbar-item" href="artists.html">
+                    View<br>Inventory
+                </a>
+                <a class="navbar-item" href="galleries.html">
+                    Find<br>the Gallery
+                </a>
+                <a class="navbar-item" href="aboutus.html">
+                    Learn<br>About Us
+                </a>
+                <a class="navbar-item" href="currentExhibition.cfm">
+                    Browse<br>Current Exhibition
+                </a>
+                <a class="navbar-item" href="mailto:art@bayviewgallery.com">
+                    Send<br>Us Email
+                </a>                                  
+            </div>
+            <div class="navbar-end">
+                <div class="navbar-item">
+                            
+                </div>
+            </div>                                
+        </div>
+    </nav> 
+    <div class="container has-text- centered">
+        <a href="Exhibition.cfm"><< Back</a>
+    </div>
+
     <div class="section">        
         <!-- start dynamic large pic display -->
         <cfif parameterexists(url.ImageID)>

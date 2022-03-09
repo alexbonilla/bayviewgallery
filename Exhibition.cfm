@@ -153,19 +153,19 @@
         </div>                                
     </div>
 </nav> 
-<div class="container columns is-centered mt-5">
-    <div class="column is-one-third has-text-centered">
-        <a href="Exhibition.cfm?estat=p">Past Exhibitions</a>
-    </div>
-    <div class="column is-one-third has-text-centered">
-        <a href="Exhibition.cfm">Current Exhibitions</a>
-    </div>
-    <div class="column is-one-third has-text-centered">
-        <a href="Exhibition.cfm?estat=f">Upcoming Exhibitions</a>
-    </div>
-</div>
 
 <div class="section">    
+    <div class="container columns is-centered mt-5">
+        <div class="column is-one-third has-text-centered">
+            <a href="Exhibition.cfm?estat=p">Past Exhibitions</a>
+        </div>
+        <div class="column is-one-third has-text-centered">
+            <a href="Exhibition.cfm">Current Exhibitions</a>
+        </div>
+        <div class="column is-one-third has-text-centered">
+            <a href="Exhibition.cfm?estat=f">Upcoming Exhibitions</a>
+        </div>
+    </div>
 <cfif eStat EQ 'c'>
     <div class="container has-text-centered">
         <H1>

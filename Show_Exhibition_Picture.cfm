@@ -46,7 +46,10 @@
             <a href="/">                        
                 <img src="images/BVG_web_banner_image_2014_smaller.jpg" alt="Bayview Gallery">
             </a>
-        </div>                                    
+        </div>
+        <div class="container">        
+            <img src="images/BVG_address_hours_bar.jpg" alt="Bayview Gallery Hours and Address">
+        </div>                                     
     </div>
     <nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">                

@@ -65,6 +65,9 @@
                 <img src="images/BVG_web_banner_image_2014_smaller.jpg" alt="Bayview Gallery">
             </a>
         </div>
+        <div class="container">        
+            <img src="images/BVG_address_hours_bar.jpg" alt="Bayview Gallery Hours and Address">
+        </div> 
         <div class="columns is-desktop">
             <div class="column is-one-quarter has-text-centered">
                 <div class="container">

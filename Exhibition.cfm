@@ -165,38 +165,37 @@
     </div>
 </div>
 
-<div class="section">
-    <div class="container">
+<div class="section">    
 <cfif eStat EQ 'c'>
-	<TABLE BORDER=0 WIDTH=600>
-	<TR>
-	<TD VALIGN=TOP ALIGN=CENTER><H1>
-		<cfoutput>#ExhibitionPic.ExhibitStatus#</cfoutput> Exhibition <br><cfoutput>#ExhibitionPic.ExhibitName#</cfoutput> </H1></TD>
-	</TR>
-	</TABLE>
-		<cfoutput query="ExhibitionPic" maxrows="1">
-	<TABLE BORDER=0 WIDTH=600>
-	<TR>
-	<TD VALIGN="TOP" ALIGN="left" colspan="2">#ReplaceNoCase(Text,Chr(10),"<br>","ALL")#
-	<FONT FACE="Arial,Helvetica" SIZE="2"></td>
-	</tr>
-	
-	</TABLE>
+    <div class="container has-text-centered">
+        <H1>
+            <cfoutput>#ExhibitionPic.ExhibitStatus#</cfoutput> Exhibition 
+            <br>
+            <cfoutput>#ExhibitionPic.ExhibitName#</cfoutput> 
+        </H1>
+    </div>
+	<cfoutput query="ExhibitionPic" maxrows="1">
+        <div class="container has-text-left">
+            #ReplaceNoCase(Text,Chr(10),"<br>","ALL")#	           
+        </div>
 	</cfoutput>
-<cfelse>
-		<table width="600" border="0">
+<cfelse>		
 			<cfif ExhibitionPic.recordcount GT 0>
-				<tr><td colspan="1" align="center"><h1><cfoutput>#ExhibitionPic.ExhibitStatus#</cfoutput> Exhibition<cfif exhibitionpic.recordcount GT 1>s</cfif></h1></td></tr>
+				<div class="container has-text-centered">
+                        <h1><cfoutput>#ExhibitionPic.ExhibitStatus#</cfoutput> Exhibition
+                            <cfif exhibitionpic.recordcount GT 1>s</cfif>
+                        </h1>                    
+                </div>
 				<cfoutput query="exhibitionpic" group="exhibitname">
-					<tr>
-						<td valign="top"><a href="exhibition.cfm?eid=#exhibitID#">#exhibitname#</a></td>
-						<!--- <td valign="top">#text#</td> --->
-					</tr>
+                    <div class="container has-text-centered">
+                        <a href="exhibition.cfm?eid=#exhibitID#">#exhibitname#</a>
+                    </div>
 				</cfoutput>
 			<cfelse>
-				<tr><td colspan="1" align="center"><h1>No Exhibitions Found</h1></td></tr>
-			</cfif>
-		</table>
+				<div class="container has-text-centered">
+                    <h1>No Exhibitions Found</h1>
+                </div>
+			</cfif>		
 </cfif>
 
 <cfif eStat EQ 'c'>
@@ -228,8 +227,7 @@
 	</cfoutput>	
 	<!-- end dynamic pics loop -->
 	</div>
-</cfif>
-    </div>
+</cfif>    
 </div>		
 <div class="section">
         <div class="container has-text-centered">

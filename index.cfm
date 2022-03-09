@@ -14,6 +14,7 @@
     <title>Bayview Gallery</title>
 
     <!-- Mobile Sniffer -->		
+    <!--
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
     <script type="text/javascript" src="detectmobilebrowser.js"></script>
     <script type="text/javascript">
@@ -22,6 +23,7 @@
         window.location.href = 'http://www.bayviewgallery.com/index_mobi.html';
     }
     </script> 
+    -->
     <!-- !Mobile -->	
         
     <!--    GA		-->

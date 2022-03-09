@@ -109,12 +109,11 @@
 </cfif>
 
 <div class="section">
-        <div class="container">
-            <a href="/">                        
-                <img src="images/BVG_web_banner_image_2014_smaller.jpg" alt="Bayview Gallery">
-            </a>
-        </div>        
-    </div>     
+    <div class="container">
+        <a href="/">                        
+            <img src="images/BVG_web_banner_image_2014_smaller.jpg" alt="Bayview Gallery">
+        </a>
+    </div>            
     <nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
             <div class="navbar-brand">                
                 <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarMain">
@@ -162,8 +161,10 @@
             <a href="Exhibition.cfm?estat=f">Upcoming Exhibitions</a>
         </div>
     </div>
+</div>
 
-
+<div class="section">
+    <div class="container">
 <cfif eStat EQ 'c'>
 	<TABLE BORDER=0 WIDTH=600>
 	<TR>
@@ -226,7 +227,8 @@
 	<!-- end dynamic pics loop -->
 	</div>
 </cfif>
-		
+    </div>
+</div>		
 <div class="section">
         <div class="container has-text-centered">
             <FONT FACE="Arial, Helvetica" SIZE="2">

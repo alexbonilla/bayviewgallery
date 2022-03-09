@@ -283,13 +283,13 @@
         </table>                                          
     </div>
     <!-- END: Constant Contact Basic Opt-in Email List Form -->
-<!-- BEGIN: SafeSubscribe -->
-    <div align="center" style="padding-top:5px;">
-    <a href="http://www.constantcontact.com/safesubscribe.jsp" target="_blank"><img src="https://img.constantcontact.com/ui/images1/safe_subscribe_logo.gif" border="0" width="168" height="14" alt=""/></a>
+    <!-- BEGIN: SafeSubscribe -->
+    <div class="container has-text-centered">
+        <a href="http://www.constantcontact.com/safesubscribe.jsp" target="_blank">
+            <img src="https://img.constantcontact.com/ui/images1/safe_subscribe_logo.gif" border="0" width="168" height="14" alt=""/>
+        </a>
     </div>
-<!-- END: SafeSubscribe -->
-	</CENTER>
-	<!-- navbar ends here -->
+    <!-- END: SafeSubscribe -->
 </body>
 <script type="text/javascript">
     document.addEventListener('DOMContentLoaded', () => {

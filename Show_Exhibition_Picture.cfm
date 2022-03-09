@@ -84,7 +84,7 @@
             </div>                                
         </div>
     </nav> 
-    <div class="container has-text- centered">
+    <div class="container has-text-centered">
         <a href="Exhibition.cfm"><< Back</a>
     </div>
     <div class="section">        

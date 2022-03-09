@@ -64,9 +64,8 @@
             <a href="/">                        
                 <img src="images/BVG_web_banner_image_2014_smaller.jpg" alt="Bayview Gallery">
             </a>
-        </div>        
-    </div>
-    <div class="columns is-desktop">
+        </div>
+        <div class="columns is-desktop">
             <div class="column is-one-quarter has-text-centered">
                 <div class="container">
                     <a href="http://www.facebook.com/pages/Bayview-Gallery/183780655000860">
@@ -101,7 +100,8 @@
                     </a>                          
                 </div>                            
             </div>                               
-    </div> 
+        </div>         
+    </div>    
     <nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
             <div class="navbar-brand">                
                 <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarMain">

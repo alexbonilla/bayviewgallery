@@ -39,6 +39,9 @@ header {
     .footer-menu {
         display: none;
     }
+    body {
+        width: 100%;
+    }
 }
   
 nav a:visited,

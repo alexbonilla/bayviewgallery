@@ -75,22 +75,24 @@
                 </div>
             </div>
             <div class="column is-half has-text-centered">
-                <table border="0" cellspacing="0" cellpadding="3" bgcolor="#ffffcc" class="newsletter-form">
-                    <tr>
-                        <td align="center" style="font-weight: bold; font-family:Verdana,Geneva,Arial,Helvetica,sans-serif; font-size:12px; color:#000000;">Sign up for our Email Newsletter</td>
-                    </tr>
-                    <tr>
-                        <td align="center" style="border-top:2px solid #000000">
-                            <form name="ccoptin" action="https://visitor.constantcontact.com/d.jsp" target="_blank" method="post" style="margin-bottom:2;">
-                                <input type="hidden" name="m" value="1101873900008">
-                                <input type="hidden" name="p" value="oi">
-                                <font style="font-weight: normal; font-family:Verdana,Geneva,Arial,Helvetica,sans-serif; font-size:12px; color:#000000;">Your Email:</font> 
-                                <input type="text" name="ea" size="20" value="" style="font-size:10pt; border:1px solid #999999;">
-                                <input type="submit" name="go" value="Go" class="submit" style="font-family:Verdana,Geneva,Arial,Helvetica,sans-serif; font-size:10pt;">
-                            </form>
-                        </td>
-                    </tr>
-                </table>
+                <div class="container">
+                    <table border="0" cellspacing="0" cellpadding="3" bgcolor="#ffffcc" class="newsletter-form">
+                        <tr>
+                            <td align="center" style="font-weight: bold; font-family:Verdana,Geneva,Arial,Helvetica,sans-serif; font-size:12px; color:#000000;">Sign up for our Email Newsletter</td>
+                        </tr>
+                        <tr>
+                            <td align="center" style="border-top:2px solid #000000">
+                                <form name="ccoptin" action="https://visitor.constantcontact.com/d.jsp" target="_blank" method="post" style="margin-bottom:2;">
+                                    <input type="hidden" name="m" value="1101873900008">
+                                    <input type="hidden" name="p" value="oi">
+                                    <font style="font-weight: normal; font-family:Verdana,Geneva,Arial,Helvetica,sans-serif; font-size:12px; color:#000000;">Your Email:</font> 
+                                    <input type="text" name="ea" size="20" value="" style="font-size:10pt; border:1px solid #999999;">
+                                    <input type="submit" name="go" value="Go" class="submit" style="font-family:Verdana,Geneva,Arial,Helvetica,sans-serif; font-size:10pt;">
+                                </form>
+                            </td>
+                        </tr>
+                    </table>
+                </div>                
             </div> 
             <div class="column is-one-quarter has-text-centered">                            
                 <div class="container">

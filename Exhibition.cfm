@@ -264,9 +264,8 @@
         </div>
     </nav> 
 	<!-- BEGIN: Constant Contact Basic Opt-in Email List Form -->
-    <div class="columns is-desktop">            
-            <div class="column is-full has-text-centered">
-                <table border="0" cellspacing="0" cellpadding="3" bgcolor="#ffffcc" class="newsletter-form">
+    <div class="container">            
+        <table border="0" cellspacing="0" cellpadding="3" bgcolor="#ffffcc" class="newsletter-form">
                     <tr>
                         <td align="center" style="font-weight: bold; font-family:Verdana,Geneva,Arial,Helvetica,sans-serif; font-size:12px; color:#000000;">Sign up for our Email Newsletter</td>
                     </tr>
@@ -281,8 +280,7 @@
                             </form>
                         </td>
                     </tr>
-                </table>
-            </div>                                           
+        </table>                                          
     </div>
     <!-- END: Constant Contact Basic Opt-in Email List Form -->
 <!-- BEGIN: SafeSubscribe -->

@@ -46,8 +46,8 @@
             <a href="/">                        
                 <img src="images/BVG_web_banner_image_2014_smaller.jpg" alt="Bayview Gallery">
             </a>
-        </div>            
-    </div>    
+        </div>                                    
+    </div>
     <nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">                
             <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarMain">
@@ -87,7 +87,6 @@
     <div class="container has-text- centered">
         <a href="Exhibition.cfm"><< Back</a>
     </div>
-
     <div class="section">        
         <!-- start dynamic large pic display -->
         <cfif parameterexists(url.ImageID)>
@@ -105,9 +104,11 @@
                     <FONT FACE="Arial,Helvetica" SIZE="2">#tempBlurb#</font>
                 </div>
                 <div class="container has-text-centered mt-3">
-                    <font FACE="Arial,Helvetica" SIZE="2">
-                        <strong>Back</strong>
-                    </font>
+                    <a href="#cgi.HTTP_REFERER#">
+                        <font FACE="Arial,Helvetica" SIZE="2">
+                            <strong>Back</strong>
+                        </font>
+                    </a>
                 </div>
             </cfoutput>					
 		<cfelse>
@@ -116,7 +117,8 @@
             </div>	
 		</cfif>
         <!-- end dynamic pics loop -->
-    </div>    		
+    </div>    
+	
     <div class="section">
         <div class="container has-text-centered">
             <FONT FACE="Arial, Helvetica" SIZE="2">

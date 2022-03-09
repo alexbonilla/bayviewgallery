@@ -153,7 +153,7 @@
         </div>                                
     </div>
 </nav> 
-<div class="columns is-centered mt-5">
+<div class="container columns is-centered mt-5">
     <div class="column is-one-third has-text-centered">
         <a href="Exhibition.cfm?estat=p">Past Exhibitions</a>
     </div>

@@ -68,7 +68,7 @@
         <div class="container">        
             <img src="images/BVG_address_hours_bar.jpg" alt="Bayview Gallery Hours and Address">
         </div> 
-        <div class="columns is-desktop">
+        <div class="columns is-desktop mt-2">
             <div class="column is-one-quarter has-text-centered">
                 <div class="container">
                     <a href="http://www.facebook.com/pages/Bayview-Gallery/183780655000860">

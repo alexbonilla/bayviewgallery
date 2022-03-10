@@ -60,12 +60,12 @@
         
     </cfquery>
     <div class="section">
-        <div class="container">
+        <div class="container has-text-centered">
             <a href="/">                        
                 <img src="images/BVG_web_banner_image_2014_smaller.jpg" alt="Bayview Gallery">
             </a>
         </div>
-        <div class="container">        
+        <div class="container has-text-centered">        
             <img src="images/BVG_address_hours_bar.jpg" alt="Bayview Gallery Hours and Address">
         </div> 
         <div class="columns is-desktop mt-2">

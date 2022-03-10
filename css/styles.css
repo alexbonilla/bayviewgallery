@@ -50,6 +50,11 @@ h2 {
     body {
         width: 100%;
     }
+    nav a:visited,
+    nav a:link {
+        color: #888;
+        text-decoration: none;
+    }
 }
   
 nav a:visited,

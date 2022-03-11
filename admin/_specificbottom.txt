@@ -18,19 +18,19 @@
                     Home
                 </a>              
                 <a class="navbar-item" href="artists.html">
-                    View<br>Inventory
+                    View Inventory
                 </a>
                 <a class="navbar-item" href="galleries.html">
-                    Find<br>the Gallery
+                    Find the Gallery
                 </a>
                 <a class="navbar-item" href="aboutus.html">
-                    Learn<br>About Us
+                    Learn About Us
                 </a>
                 <a class="navbar-item" href="currentExhibition.cfm">
-                    Browse<br>Current Exhibition
+                    Browse Current Exhibition
                 </a>
                 <a class="navbar-item" href="mailto:art@bayviewgallery.com">
-                    Send<br>Us Email
+                    Send Us Email
                 </a>                                  
             </div>                                               
         </div>

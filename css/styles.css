@@ -38,6 +38,9 @@ h2 {
     .navbar {
         background-color: unset !important;
     } 
+    body {
+        width: 800px;
+    }   
 }
 
 @media screen and (max-width: 1023px) {

@@ -34,30 +34,6 @@ h1 {
 h2 {
     font-size: 1.5em !important;
 }
-
-@media screen and (min-width: 1024px) {
-    .navbar {
-        background-color: unset !important;
-    } 
-    body {
-        width: 800px;
-        /*Push this change*/
-    }   
-}
-
-@media screen and (max-width: 1023px) {
-    .footer-menu {
-        display: none;
-    }
-    body {
-        width: 100%;
-    }
-    nav a:visited,
-    nav a:link {
-        color: #888;
-        text-decoration: none;
-    }
-}
   
 nav a:visited,
 nav a:link {
@@ -95,4 +71,27 @@ a{
     border:2px solid #000000;    
     margin-left:auto;
     margin-right:auto;
+}
+
+@media screen and (min-width: 1024px) {
+    .navbar {
+        background-color: unset !important;
+    } 
+    body {
+        width: 800px;        
+    }   
+}
+
+@media screen and (max-width: 1023px) {
+    .footer-menu {
+        display: none;
+    }
+    body {
+        width: 100%;
+    }
+    nav a:visited,
+    nav a:link {
+        color: #333366;
+        text-decoration: none;
+    }
 }

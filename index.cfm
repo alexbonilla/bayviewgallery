@@ -119,19 +119,19 @@
                         Home
                     </a>              
                     <a class="navbar-item" href="artists.html">
-                        View<br>Inventory
+                        View Inventory
                     </a>
                     <a class="navbar-item" href="galleries.html">
-                        Find<br>the Gallery
+                        Find the Gallery
                     </a>
                     <a class="navbar-item" href="aboutus.html">
-                        Learn<br>About Us
+                        Learn About Us
                     </a>
                     <a class="navbar-item" href="currentExhibition.cfm">
-                        Browse<br>Current Exhibition
+                        Browse Current Exhibition
                     </a>
                     <a class="navbar-item" href="mailto:art@bayviewgallery.com">
-                        Send<br>Us Email
+                        Send Us Email
                     </a>                                  
                 </div>
                 <div class="navbar-end">
@@ -185,16 +185,6 @@
             </div>
         </div>                                  
     </div>
-    <div class="section">
-        <div class="container has-text-centered">
-            <FONT FACE="Arial, Helvetica" SIZE="2">
-            <B>Bayview Gallery</B><BR>
-            <A HREF="mailto:art@bayviewgallery.com">art@bayviewgallery.com</A><BR><BR>            
-            58 Maine Street, Brunswick, Maine 04011<BR>
-	        207-729-5500 or  800-244-3007 
-        </FONT>
-        </div>
-    </div>
     <nav class="navbar is-transparent footer-menu" role="navigation" aria-label="footer navigation">                         
         <div id="navbarFooter" class="navbar-menu">
             <div class="navbar-start">
@@ -202,23 +192,31 @@
                     Home
                 </a>              
                 <a class="navbar-item" href="artists.html">
-                    View<br>Inventory
+                    View Inventory
                 </a>
                 <a class="navbar-item" href="galleries.html">
-                    Find<br>the Gallery
+                    Find the Gallery
                 </a>
                 <a class="navbar-item" href="aboutus.html">
-                    Learn<br>About Us
+                    Learn About Us
                 </a>
                 <a class="navbar-item" href="currentExhibition.cfm">
-                    Browse<br>Current Exhibition
+                    Browse Current Exhibition
                 </a>
                 <a class="navbar-item" href="mailto:art@bayviewgallery.com">
-                    Send<br>Us Email
+                    Send Us Email
                 </a>                                  
             </div>                                               
         </div>
-    </nav>     
+    </nav>
+    <div class="section">
+        <div class="container has-text-centered">            
+            <B>Bayview Gallery</B><BR>
+            <A HREF="mailto:art@bayviewgallery.com">art@bayviewgallery.com</A><BR><BR>            
+            58 Maine Street, Brunswick, Maine 04011<BR>
+	        207-729-5500 or  800-244-3007 
+        </div>
+    </div>     
 </body>
 <script type="text/javascript">
     document.addEventListener('DOMContentLoaded', () => {

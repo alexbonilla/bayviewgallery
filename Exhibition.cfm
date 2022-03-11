@@ -185,8 +185,12 @@
 <cfelse>		
 			<cfif ExhibitionPic.recordcount GT 0>
 				<div class="container has-text-centered">
-                        <h1><cfoutput>#ExhibitionPic.ExhibitStatus#</cfoutput> Exhibition
-                            <cfif exhibitionpic.recordcount GT 1>s</cfif>
+                        <h1><cfoutput>#ExhibitionPic.ExhibitStatus# </cfoutput>
+                            <cfif exhibitionpic.recordcount GT 1>
+                                Exhibitions
+                            <cfelse>
+                                Exhibition
+                            </cfif>
                         </h1>                    
                 </div>
 				<cfoutput query="exhibitionpic" group="exhibitname">

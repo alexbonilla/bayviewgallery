@@ -64,7 +64,7 @@
                 <div class="column is-half has-text-centered gallery-address">
                     <a href="mailto:art@bayviewgallery.com">art@bayviewgallery.com</a>
                 </div>
-                <div class="column is-half has-text-centered gallery-address">
+                <div class="column is-half has-text-centered gallery-hours">
                     <a href="tel:18002443007">1-800-244-3007</a>                    
                 </div>
             </div>

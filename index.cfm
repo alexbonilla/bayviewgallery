@@ -59,31 +59,32 @@
         FROM tblIndexPic
         
     </cfquery>
-    <div class="section">
-        <!---
+    <div class="section">        
         <div class="container has-text-centered">
             <a href="/">                        
                 <img src="images/BVG_web_banner_image_2014_smaller.jpg" alt="Bayview Gallery">
             </a>
         </div>
-        --->
+        <!---
         <div class="container has-text-centered">        
-            <img src="images/BVG_address_hours_bar.jpg" alt="Bayview Gallery Hours and Address">
-            <div class="columns is-multiline">
-                <div class="column is-full has-text-centered gallery-address">
-                    58 Maine Street | Brunswick | Maine | 04011
-                </div>
-                <div class="column is-full has-text-centered gallery-hours">
-                    Gallery Hours: Please Call
-                </div>
-                <div class="column is-half has-text-centered gallery-address">
-                    <a href="mailto:art@bayviewgallery.com">art@bayviewgallery.com</a>
-                </div>
-                <div class="column is-half has-text-centered gallery-address">
-                    <a href="tel:18002443007">1-800-244-3007</a>                    
-                </div>
-            </div>
+            <img src="images/BVG_address_hours_bar.jpg" alt="Bayview Gallery Hours and Address">            
         </div> 
+        --->
+        <div class="columns is-multiline">
+            <div class="column is-full has-text-centered gallery-address">
+                58 Maine Street | Brunswick | Maine | 04011
+            </div>
+            <div class="column is-full has-text-centered gallery-hours">
+                Gallery Hours: Please Call
+            </div>
+            <div class="column is-half has-text-centered gallery-address">
+                <a href="mailto:art@bayviewgallery.com">art@bayviewgallery.com</a>
+            </div>
+            <div class="column is-half has-text-centered gallery-hours">
+                <a href="tel:18002443007">1-800-244-3007</a>                    
+            </div>
+        </div>
+
         <div class="columns is-desktop mt-2">
             <div class="column is-one-quarter has-text-centered">
                 <div class="container">

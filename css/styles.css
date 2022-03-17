@@ -77,6 +77,8 @@ a{
     margin-right:auto;
 }
 
+
+
 @media screen and (min-width: 1024px) {
     .navbar {
         background-color: unset !important;
@@ -84,6 +86,13 @@ a{
     body {
         width: 800px;        
     }   
+    .gallery-address {
+        font-size: 1.3em;
+        height: 2em;
+    }
+    .gallery-hours {
+        height: 1.8em;
+    }
 }
 
 @media screen and (max-width: 1023px) {
@@ -104,4 +113,8 @@ a{
         color: #333366;
         text-decoration: none;
     }
+
+    .gallery-address {
+        font-size: 1em;        
+    }    
 }

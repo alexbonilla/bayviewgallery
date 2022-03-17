@@ -34,6 +34,10 @@ h1 {
 h2 {
     font-size: 1.5em !important;
 }
+
+p {
+    margin-bottom: 1em;
+}
   
 nav a:visited,
 nav a:link {
@@ -83,6 +87,12 @@ a{
 }
 
 @media screen and (max-width: 1023px) {
+    h2 {
+        font-size: 1em !important;
+    }
+    img {
+        width: 100%;
+    }
     .footer-menu {
         display: none;
     }

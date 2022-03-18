@@ -100,7 +100,7 @@ a{
     h2 {
         font-size: 1em !important;
     }
-    img {
+    img.gallery-picture {
         width: 100%;
     }
     .footer-menu {

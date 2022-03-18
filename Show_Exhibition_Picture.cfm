@@ -117,7 +117,7 @@
 					<cfset tempBlurb = ListDeleteAt(tempBlurb, "2", "$")>
 				</cfif>
                 <div class="container has-text-centered mt-5">
-                    <img src="images/exhibitionPic/#ImageBig#" border=0 ALT="">
+                    <img src="images/exhibitionPic/#ImageBig#" border=0 ALT="" class="gallery-picture">
                 </div>
                 <div class="container has-text-centered mt-3">
                     <FONT FACE="Arial,Helvetica" SIZE="2">#tempBlurb#</font>

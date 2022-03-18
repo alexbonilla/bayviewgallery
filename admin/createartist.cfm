@@ -62,7 +62,7 @@
 <!---	<cfif getArtists.CurrentRow MOD 2 eq 0> 
 		<cfset Middle = Middle & '<div class="columns"><div class="column is-two-thirds"><a href="artist_#getArtists.ArtistID#.html"><b>#getArtists.Name#</b>#CR#</a>#getArtists.Blurb#</div><div class="column"><div class="container has-text-centered"><img src="images/Thumb_#getArtists.ArtistID#_#getRepresentative.ImageID#.jpg"  border=0 alt="#getArtists.Name#" HSPACE=5 VSPACE=5></div></div></div>'>
 	<cfelse> --->
-		<cfset Middle = Middle & '<div class="columns"><div class="column"><div class="container has-text-centered"><img src="images/Thumb_#getArtists.ArtistID#_#getRepresentative.ImageID#.jpg"   border=0 alt="#getArtists.Name#" HSPACE=5 VSPACE=5></div></div><div class="column is-two-thirds"><a href="artist_#getArtists.ArtistID#.html"><b>#getArtists.Name#</b>#CR#</a><br>#getArtists.Blurb#</div></div>'>
+		<cfset Middle = Middle & '<div class="columns"><div class="column"><div class="container has-text-centered"><img src="images/Thumb_#getArtists.ArtistID#_#getRepresentative.ImageID#.jpg"   border=0 alt="#getArtists.Name#" HSPACE=5 VSPACE=5 class='gallery-picture'></div></div><div class="column is-two-thirds"><a href="artist_#getArtists.ArtistID#.html"><b>#getArtists.Name#</b>#CR#</a><br>#getArtists.Blurb#</div></div>'>
 	<!--- </cfif> --->
 </cfloop>
 
@@ -83,7 +83,7 @@
 	<cfset ThisArtistName = getArtists.Name>
 	<cfset ThisArtistID = getArtists.ArtistID>
 	<cfloop query="getArt">				
-	    <cfset Middle = Middle & "<div class='column is-one-third has-text-centered'><a href='Image_#ThisArtistID#_#getArt.ArtworkID#.html'><img src='images/thumb_#ThisArtistID#_#getArt.ArtworkID#.jpg'  hspace=20 border=0 alt='#getArt.Name#' align='top'></a><br><FONT FACE='Arial,Helvetica' size=2><a href='Image_#ThisArtistID#_#getArt.ArtworkID#.html'>#getArt.Name#</a><br>#getArt.Size#<br>#getArt.Price#</font></div>">		
+	    <cfset Middle = Middle & "<div class='column is-one-third has-text-centered'><a href='Image_#ThisArtistID#_#getArt.ArtworkID#.html'><img src='images/thumb_#ThisArtistID#_#getArt.ArtworkID#.jpg'  hspace=20 border=0 alt='#getArt.Name#' align='top' class='gallery-picture'></a><br><FONT FACE='Arial,Helvetica' size=2><a href='Image_#ThisArtistID#_#getArt.ArtworkID#.html'>#getArt.Name#</a><br>#getArt.Size#<br>#getArt.Price#</font></div>">		
 	</cfloop>
 	<cfset Middle = Middle & "</div>">
 	<cfoutput>Creating artist page for #getArtists.Name#</cfoutput><br>
@@ -101,7 +101,7 @@
 	<cffile action="READ" file="#ExpandPath('_artworkTop.txt')#" variable="Top">
 	<cffile action="READ" file="#ExpandPath('_artworkBottom.txt')#" variable="Bottom">
 	<cfset Top = Replace(Top,'|TITLE|',"#getArtwork.ArtName#",'all')>
-	<cfset Middle = "<a href='artist_#getArtwork.artistID#.html'>#CR#Back to #getArtwork.ArtistName# page#CR#</a>#CR#<br /><br /><img src='images/image_#getArtwork.ArtistID#_#getArtwork.ArtworkID#.jpg' >#CR#<br>#CR#<font face='arial,helvetica'>#getArtwork.ArtistName#<br />#getArtwork.ArtName#<br>#getArtwork.Media#<br>#getArtwork.Size#<br>#getArtwork.Price#<br><br>#getArtwork.Location#<br>#CR#">
+	<cfset Middle = "<a href='artist_#getArtwork.artistID#.html'>#CR#Back to #getArtwork.ArtistName# page#CR#</a>#CR#<br /><br /><img src='images/image_#getArtwork.ArtistID#_#getArtwork.ArtworkID#.jpg' class='gallery-picture'>#CR#<br>#CR#<font face='arial,helvetica'>#getArtwork.ArtistName#<br />#getArtwork.ArtName#<br>#getArtwork.Media#<br>#getArtwork.Size#<br>#getArtwork.Price#<br><br>#getArtwork.Location#<br>#CR#">
     
 	
 	<cffile action="WRITE" file="#ExpandPath('../Image_#getArtwork.ArtistID#_#getArtwork.ArtworkID#.html')#" output="#Top# #Middle# #Bottom#">

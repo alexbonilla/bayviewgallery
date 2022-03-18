@@ -96,7 +96,7 @@ a{
 }
 
 @media screen and (max-width: 1023px) {
-    /*Force this change*/
+    /*Force this change again*/
     h2 {
         font-size: 1em !important;
     }

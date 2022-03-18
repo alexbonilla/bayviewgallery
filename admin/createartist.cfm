@@ -62,7 +62,7 @@
 <!---	<cfif getArtists.CurrentRow MOD 2 eq 0> 
 		<cfset Middle = Middle & '<div class="columns"><div class="column is-two-thirds"><a href="artist_#getArtists.ArtistID#.html"><b>#getArtists.Name#</b>#CR#</a>#getArtists.Blurb#</div><div class="column"><div class="container has-text-centered"><img src="images/Thumb_#getArtists.ArtistID#_#getRepresentative.ImageID#.jpg"  border=0 alt="#getArtists.Name#" HSPACE=5 VSPACE=5></div></div></div>'>
 	<cfelse> --->
-		<cfset Middle = Middle & '<div class="columns"><div class="column"><div class="container has-text-centered"><img src="images/Thumb_#getArtists.ArtistID#_#getRepresentative.ImageID#.jpg"   border=0 alt="#getArtists.Name#" HSPACE=5 VSPACE=5 class='gallery-picture'></div></div><div class="column is-two-thirds"><a href="artist_#getArtists.ArtistID#.html"><b>#getArtists.Name#</b>#CR#</a><br>#getArtists.Blurb#</div></div>'>
+		<cfset Middle = Middle & '<div class="columns"><div class="column"><div class="container has-text-centered"><img src="images/Thumb_#getArtists.ArtistID#_#getRepresentative.ImageID#.jpg"   border=0 alt="#getArtists.Name#" HSPACE=5 VSPACE=5 class="gallery-picture"></div></div><div class="column is-two-thirds"><a href="artist_#getArtists.ArtistID#.html"><b>#getArtists.Name#</b>#CR#</a><br>#getArtists.Blurb#</div></div>'>
 	<!--- </cfif> --->
 </cfloop>
 

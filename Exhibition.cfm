@@ -194,7 +194,7 @@
         </H1>
     </div>
 	<cfoutput query="ExhibitionPic" maxrows="1">
-        <div class="container has-text-justified">
+        <div class="container has-text-left">
             #ReplaceNoCase(Text,Chr(10),"<br>","ALL")#	           
         </div>
 	</cfoutput>

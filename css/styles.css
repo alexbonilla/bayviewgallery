@@ -117,5 +117,10 @@ a{
 
     .gallery-address {
         font-size: 1em;        
-    }    
+    }  
+    
+    .navbar-burger span {
+        height: 0.08rem;
+        width: 1.5rem;
+    }
 }

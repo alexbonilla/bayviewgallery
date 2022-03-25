@@ -238,7 +238,7 @@
 			</cfif>
 				<div class="column is-one-quarter has-text-centered">
 					<div class="container">
-                        <a href="Show_Exhibition_Picture.cfm?ImageID=#ImageID#"><img src="images/ExhibitionPic/#ImageThumb#" border=0 ALT="" class="gallery-picture"></a>
+                        <a href="Show_Exhibition_Picture.cfm?ImageID=#ImageID#"><img src="images/ExhibitionPic/#ImageBig#" border=0 ALT="" class="gallery-picture"></a>
                     </div>
                     <div class="container">
 						<font FACE="Arial,Helvetica" SIZE="2">#tempBlurb#</font>

@@ -62,7 +62,8 @@
 <!---	<cfif getArtists.CurrentRow MOD 2 eq 0> 
 		<cfset Middle = Middle & '<div class="columns"><div class="column is-two-thirds"><a href="artist_#getArtists.ArtistID#.html"><b>#getArtists.Name#</b>#CR#</a>#getArtists.Blurb#</div><div class="column"><div class="container has-text-centered"><img src="images/Thumb_#getArtists.ArtistID#_#getRepresentative.ImageID#.jpg"  border=0 alt="#getArtists.Name#" HSPACE=5 VSPACE=5></div></div></div>'>
 	<cfelse> --->
-		<cfset Middle = Middle & '<div class="columns"><div class="column"><div class="container has-text-centered"><img src="images/Thumb_#getArtists.ArtistID#_#getRepresentative.ImageID#.jpg"   border=0 alt="#getArtists.Name#" HSPACE=5 VSPACE=5 class="gallery-picture"></div></div><div class="column is-two-thirds"><a href="artist_#getArtists.ArtistID#.html"><b>#getArtists.Name#</b>#CR#</a><br>#getArtists.Blurb#</div></div>'>
+		<!--- RR 3/25/22 - removed thumb_ --->
+		<cfset Middle = Middle & '<div class="columns"><div class="column"><div class="container has-text-centered"><img src="images/Image_#getArtists.ArtistID#_#getRepresentative.ImageID#.jpg"   border=0 alt="#getArtists.Name#" HSPACE=5 VSPACE=5 class="gallery-picture"></div></div><div class="column is-two-thirds"><a href="artist_#getArtists.ArtistID#.html"><b>#getArtists.Name#</b>#CR#</a><br>#getArtists.Blurb#</div></div>'>
 	<!--- </cfif> --->
 </cfloop>
 
@@ -83,7 +84,10 @@
 	<cfset ThisArtistName = getArtists.Name>
 	<cfset ThisArtistID = getArtists.ArtistID>
 	<cfloop query="getArt">				
-	    <cfset Middle = Middle & "<div class='column is-one-third has-text-centered'><a href='Image_#ThisArtistID#_#getArt.ArtworkID#.html'><img src='images/thumb_#ThisArtistID#_#getArt.ArtworkID#.jpg'  hspace=20 border=0 alt='#getArt.Name#' align='top' class='gallery-picture'></a><br><FONT FACE='Arial,Helvetica' size=2><a href='Image_#ThisArtistID#_#getArt.ArtworkID#.html'>#getArt.Name#</a><br>#getArt.Size#<br>#getArt.Price#</font></div>">		
+	    <!--- removed thumb_ RR 3/25/22
+		<cfset Middle = Middle & "<div class='column is-one-third has-text-centered'><a href='Image_#ThisArtistID#_#getArt.ArtworkID#.html'><img src='images/thumb_#ThisArtistID#_#getArt.ArtworkID#.jpg'  hspace=20 border=0 alt='#getArt.Name#' align='top' class='gallery-picture'></a><br><FONT FACE='Arial,Helvetica' size=2><a href='Image_#ThisArtistID#_#getArt.ArtworkID#.html'>#getArt.Name#</a><br>#getArt.Size#<br>#getArt.Price#</font></div>">		
+		--->
+		<cfset Middle = Middle & "<div class='column is-one-third has-text-centered'><a href='Image_#ThisArtistID#_#getArt.ArtworkID#.html'><img src='images/image_#ThisArtistID#_#getArt.ArtworkID#.jpg'  hspace=20 border=0 alt='#getArt.Name#' align='top' class='gallery-picture'></a><br><FONT FACE='Arial,Helvetica' size=2><a href='Image_#ThisArtistID#_#getArt.ArtworkID#.html'>#getArt.Name#</a><br>#getArt.Size#<br>#getArt.Price#</font></div>">		
 	</cfloop>
 	<cfset Middle = Middle & "</div>">
 	<cfoutput>Creating artist page for #getArtists.Name#</cfoutput><br>
@@ -108,8 +112,3 @@
 	Creating artwork  page for <cfoutput>#getArtwork.ArtName#</cfoutput><br>
 
 </cfloop>
-
-
-
-
-

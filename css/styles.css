@@ -77,6 +77,18 @@ a{
     margin-right:auto;
 }
 
+.menu-word-mobile {
+    color: #4a4a4a;
+    margin-left: auto;    
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 1rem;
+}
+
+.navbar-burger {
+    margin-left: 0 !important;
+}
+
 
 
 @media screen and (min-width: 1024px) {
@@ -92,6 +104,9 @@ a{
     }
     .gallery-hours {
         height: 1.8em;
+    }
+    .menu-word-mobile{
+        display: none;
     }
 }
 
@@ -122,5 +137,9 @@ a{
     .navbar-burger span {
         height: 0.08rem;
         width: 1.5rem;
+    }
+
+    .menu-word-mobile{
+        display: block;
     }
 }

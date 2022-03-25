@@ -123,7 +123,8 @@
         </div>         
     </div>    
     <nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
-            <div class="navbar-brand">                
+            <div class="navbar-brand">   
+                <div class="menu-word-mobile">Menu</div>
                 <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarMain">
                     <span aria-hidden="true"></span>
                     <span aria-hidden="true"></span>

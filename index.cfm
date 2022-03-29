@@ -188,10 +188,7 @@
                     Bayview Gallery offers paintings by New England's finest and most renowned <A HREF="artists.html">artists</A>. The artists we represent span the spectrum from contemporary American Impressionists to Realists.
                 </div>
             </div>
-            <div class="columns is-desktop">   
-                <div class="column is-two-fifths">
-                    Thanks for visiting, come and see us when you're in Maine.
-                </div>             
+            <div class="columns is-desktop">  
                 <div class="column is-three-fifths">
                     <a href="artists.html">
                         <cfoutput query="IndexPic">
@@ -199,7 +196,10 @@
                             </cfif>
                         </cfoutput>
                     </a>
-                </div>                
+                </div> 
+                <div class="column is-two-fifths">            
+                    Thanks for visiting, come and see us when you're in Maine.
+                </div>                                             
             </div>
         </div>                                  
     </div>
